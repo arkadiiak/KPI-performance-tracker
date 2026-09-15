@@ -4,7 +4,7 @@
 
 A comprehensive monthly KPI scoring system designed to evaluate individual staff performance across a team of 20+ nail technicians. Built and managed by the location manager to ensure transparent, data-driven performance reviews and bonus calculations.
 
-> *“A transparent, clear, and fair evaluation of your work — every month.”*
+> *"A transparent, clear, and fair evaluation of your work — every month."*
 
 -----
 
@@ -12,7 +12,7 @@ A comprehensive monthly KPI scoring system designed to evaluate individual staff
 
 Performance is calculated from 5 weighted indicators plus adjustments:
 
-|Indicator              |How It’s Calculated                             |Weight|
+|Indicator              |How It's Calculated                             |Weight|
 |-----------------------|------------------------------------------------|------|
 |**Profitability**      |(Revenue − Materials − Salary) / Revenue × 100% |15%   |
 |**Client Retention**   |Repeat clients / Total clients × 100%           |35%   |
@@ -83,11 +83,11 @@ Minimum eligibility: 10 working days in the reporting month.
 
 ## Period Covered
 
-February 2025 – April 2025 | X Street, London
+February 2025 – April 2025 | Flagship Location, London
 
 ## Tools Used
 
-Google Sheets · Excel · Zenoti · Notion (KPI documentation)
+Google Sheets · Excel · Zenoti · Notion (KPI documentation) · Python (pandas, sqlite3, matplotlib)
 
 ## Skills Demonstrated
 
@@ -96,3 +96,16 @@ Google Sheets · Excel · Zenoti · Notion (KPI documentation)
 - Performance trend analysis (3-month view)
 - Bonus calculation and payroll impact
 - Data-driven staff management
+- Python-based data analysis and automation
+
+-----
+
+## Python Implementation
+
+A Python version of this scoring system (`analyze_performance.py`) replicates the weighted KPI logic on a synthetic dataset, demonstrating:
+- Automated weighted score calculation and tier assignment across a full team
+- SQLite database integration via pandas for structured querying
+- Location- and month-level trend analysis
+- Data visualisation of revenue and performance trends (matplotlib)
+
+Includes `generate_synthetic_data.py`, which produces anonymised sample data matching this system's structure for demonstration purposes.
